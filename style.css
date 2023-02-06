@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.sec-one {
+    background-color: rgb(18, 40, 82);
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+.nav-links{
+    width: 50%;
+}
+.navbar {
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.navbar a {
+    color: rgb(218, 149, 21);
+    font-size: 20px;
+    margin: 5px;
+    font-family: "syne";
+}
