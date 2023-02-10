@@ -11,15 +11,16 @@ ul li {
     display: inline-block;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .sec-one {
     position: relative;
-    /* background-color: rgb(33, 62, 116); */
     height: 100vh;
-    /* background-image: url(imgs/ta[e4.jpeg); */
     background-size: cover;
-    /* background-position-y: -25px; */
     overflow: hidden;
-    /* background-position-x: -30px ; */
+
 }
 
 a {
@@ -33,16 +34,15 @@ a {
 
 .video {
     position: absolute;
-    /* object-fit:fill; */
-    /* width: 100%; */
-    /* height: 500px; */
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
 }
-
+.col-25{
+    width: 25%;
+}
 .jsc {
     justify-content: space-between;
 }
@@ -53,16 +53,14 @@ a {
 
 .navbar {
     position: absolute;
-    /* background-color: #fff; */
     position: sticky;
     display: flex;
     justify-content: space-between;
-    /* height: 8vh; */
     line-height: 80px;
 }
 
 .navbar a {
-    color: #bda7a7;
+    color: #fff;
     font-size: 20px;
     margin: 5px;
     font-family: "syne";
@@ -74,6 +72,730 @@ a {
     width: 200px;
 }
 
-p {
+.main-logo {
+    position: relative;
+    left: 4%;
+    top: 23%;
+}
+
+.main-logo img {
+    width: 45%;
+    height: 45%;
+}
+
+.text {
     position: absolute;
+    width: 50%;
+    left: 45%;
+    text-align: center;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Syne';
+
+}
+
+.text h4 {
+    font-size: 80px;
+    color: #d8d8d8;
+    font-family: 'Syne';
+
+}
+
+.text p {
+    color: #fff455;
+}
+
+.text span {
+    color: #f5d41d;
+}
+
+/* ----------  section two --------------- */
+
+.sec-two{
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+/* *************** section three *******************  */
+.sec-three{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(180deg,#193064,#b81cab);
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    top: 30%;
+    /* background-color: rgb(212, 251, 0); */
+    /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
+    /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
+    /* border-radius: 20px; */
+  }
+  
+  .carousel__slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    /* border: 2px solid #333; */
+    height: 300px;
+  }
+  
+  .carousel__list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 20px 0 0;
+    border: 2px solid #333;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 1.5s;
+  }
+  
+  .carousel__item:hover {
+    transform: scale(1.5);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+.title{
+    /* this class also works in section four same class added in section four */
+    font-size: 50px;
+    color: #cabc41;
+    font-family: 'Syne';
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 50px 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.image p{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgb(220, 231, 66);
+    font-family: 'Syne';
+}
+.image{
+    margin: 50px 0;
+}
+.image img{
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+} 
+
+/* *************** Section Four *******************  */
+
+.sec-four{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+
+/* sldier for review */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 17%;
+    float: left;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-left: 54px;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.testimonial-item.equal-height.style-6 {
+    background-color: #361072;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cell-right {
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.testimonial-name {
+    font-weight: 600;
+}
+.testimonial-content.quote {
+    padding: 17px 55px;
+}
+.et_right_sidebar #main-content .container:before{
+    display: none;
+}
+#main-content .container {
+    padding-top: 10px;
+}
+i.fa.fa-quote-left {
+    padding: 0px 10px;
+    color: #999;
+}
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-one {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.video {
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-25{
+    width: 25%;
+}
+.jsc {
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+}
+
+.navbar {
+    position: absolute;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    font-family: "syne";
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+}
+
+.main-logo {
+    position: relative;
+    left: 4%;
+    top: 23%;
+}
+
+.main-logo img {
+    width: 45%;
+    height: 45%;
+}
+
+.text {
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    text-align: center;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Syne';
+
+}
+
+.text h4 {
+    font-size: 80px;
+    color: #d8d8d8;
+    font-family: 'Syne';
+
+}
+
+.text p {
+    color: #fff455;
+}
+
+.text span {
+    color: #f5d41d;
+}
+
+/* ----------  section two --------------- */
+
+.sec-two{
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+/* *************** section three *******************  */
+.sec-three{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(180deg,#193064,#b81cab);
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    top: 30%;
+    /* background-color: rgb(212, 251, 0); */
+    /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
+    /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
+    /* border-radius: 20px; */
+  }
+  
+  .carousel__slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    /* border: 2px solid #333; */
+    height: 300px;
+  }
+  
+  .carousel__list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 20px 0 0;
+    border: 2px solid #333;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 1.5s;
+  }
+  
+  .carousel__item:hover {
+    transform: scale(1.5);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+.title{
+    /* this class also works in section four same class added in section four */
+    font-size: 50px;
+    color: #cabc41;
+    font-family: 'Syne';
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 50px 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.image p{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgb(220, 231, 66);
+    font-family: 'Syne';
+}
+.image{
+    margin: 50px 0;
+}
+.image img{
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+} 
+
+/* *************** Section Four *******************  */
+
+.sec-four{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+
+/* sldier for review */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 17%;
+    float: left;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-left: 54px;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.testimonial-item.equal-height.style-6 {
+    background-color: #361072;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cell-right {
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.testimonial-name {
+    font-weight: 600;
+}
+.testimonial-content.quote {
+    padding: 17px 55px;
+}
+.et_right_sidebar #main-content .container:before{
+    display: none;
+}
+#main-content .container {
+    padding-top: 10px;
+}
+i.fa.fa-quote-left {
+    padding: 0px 10px;
+    color: #999;
+}
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-one {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.video {
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-25{
+    width: 25%;
+}
+.jsc {
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+}
+
+.navbar {
+    position: absolute;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    font-family: "syne";
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+}
+
+.main-logo {
+    position: relative;
+    left: 4%;
+    top: 23%;
+}
+
+.main-logo img {
+    width: 45%;
+    height: 45%;
+}
+
+.text {
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    text-align: center;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Syne';
+
+}
+
+.text h4 {
+    font-size: 80px;
+    color: #d8d8d8;
+    font-family: 'Syne';
+
+}
+
+.text p {
+    color: #fff455;
+}
+
+.text span {
+    color: #f5d41d;
+}
+
+/* ----------  section two --------------- */
+
+.sec-two{
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+/* *************** section three *******************  */
+.sec-three{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(180deg,#193064,#b81cab);
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    top: 30%;
+    /* background-color: rgb(212, 251, 0); */
+    /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
+    /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
+    /* border-radius: 20px; */
+  }
+  
+  .carousel__slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    /* border: 2px solid #333; */
+    height: 300px;
+  }
+  
+  .carousel__list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 20px 0 0;
+    border: 2px solid #333;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 1.5s;
+  }
+  
+  .carousel__item:hover {
+    transform: scale(1.5);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+.title{
+    /* this class also works in section four same class added in section four */
+    font-size: 50px;
+    color: #cabc41;
+    font-family: 'Syne';
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 50px 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.image p{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgb(220, 231, 66);
+    font-family: 'Syne';
+}
+.image{
+    margin: 50px 0;
+}
+.image img{
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+} 
+
+/* *************** Section Four *******************  */
+
+.sec-four{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
+
+
+/* sldier for review */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 17%;
+    float: left;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-left: 54px;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.testimonial-item.equal-height.style-6 {
+    background-color: #361072;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cell-right {
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.testimonial-name {
+    font-weight: 600;
+}
+.testimonial-content.quote {
+    padding: 17px 55px;
+}
+.et_right_sidebar #main-content .container:before{
+    display: none;
+}
+#main-content .container {
+    padding-top: 10px;
+}
+i.fa.fa-quote-left {
+    padding: 0px 10px;
+    color: #999;
 }
