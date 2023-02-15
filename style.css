@@ -779,9 +779,9 @@ ul {
 }
 .cell-right {
     text-align: center;
-    /* margin-right: 80px; */
-    /* padding-top: 35px; */
-    /* padding-bottom: 20px; */
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 .testimonial-name {
     font-weight: 600;
