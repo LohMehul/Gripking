@@ -764,13 +764,13 @@ ul {
 /* sldier for review */
 .owl-carousel .owl-item img {
     display: block;
-    /* width: 17%; */
-    /* float: left; */
+    width: 17%;
+    float: left;
     /* border: 5px solid #fff; */
     /* border-radius: 20px; */
     /* margin-left: 54px; */
-    /* margin-right: 35px; */
-    /* margin-top: 15px; */
+    margin-right: 35px;
+    margin-top: 15px;
 }
 .testimonial-item.equal-height.style-6 {
     background-color: #361072;
