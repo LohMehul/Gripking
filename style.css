@@ -67,9 +67,6 @@ a {
 
 .navbar a:hover {
     color: rgb(255, 166, 0);
-    text-shadow: 0 0 5px #ffee10;
-
-
 }
 
 .navbar a {
@@ -144,10 +141,6 @@ ul {
     position: relative;
     overflow: hidden;
     top: 15%;
-    /* background-color: rgb(212, 251, 0); */
-    /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
-    /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
-    /* border-radius: 20px; */
 }
 
 .carousel__slider {
@@ -155,10 +148,7 @@ ul {
     display: flex;
     align-items: center;
     width: 170vw;
-    /* width: clamp(500px,170vw,900px); */
-    /* border: 2px solid #333; */
     height: 300px;
-    /* margin-right:30px ; */
 }
 
 .carousel__list {
@@ -177,10 +167,7 @@ ul {
     align-items: center;
     justify-content: center;
     width: 300px;
-    /* height: 300px; */
     margin: 0 20px 0 0;
-    /* border: 2px solid #333; */
-    /* border-radius: 50px; */
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
@@ -195,15 +182,12 @@ ul {
 
 /* *************** section three *******************  */
 .sec-three {
-    /* background-color: #9eb3af; */
-    background: linear-gradient(180deg, #193064, #b81cab);
+    background-color: #131313;
 
 }
 
 .title {
-    /* this class also works in section four same class added in section four */
     font-size: 50px;
-    /* font-size: clamp(1rem,60vw,6rem); */
     color: #cabc41;
     font-family: 'Syne';
     text-align: center;
@@ -240,13 +224,13 @@ ul {
 /* *************** Section Four *******************  */
 
 .sec-four {
-    /* background-color: #9eb3af; */
-    background: linear-gradient(360deg, #193064, #b81cab);
+    background-color: #131313;
     height: 80vh;
 }
 
 
 /* sldier for review */
+
 .owl-carousel .owl-item img {
     display: block;
     width: 17%;
@@ -260,8 +244,6 @@ ul {
 }
 
 .testimonial-item.equal-height.style-6 {
-    /* background-color: #361072; */
-    /* background: linear-gradient(180deg,#364d80,#662060); */
     border-radius: 10px;
     margin: 10px;
     font-family: 'Syne';
@@ -311,8 +293,7 @@ i.fa.fa-quote-left {
 /* 
  */
 .info {
-    background: linear-gradient(180deg, #193064, #b81cab);
-    /* background-color: #303030; */
+    background-color: #131313;
 }
 
 
@@ -385,16 +366,10 @@ i.fa.fa-quote-left {
 
 .info a i:hover {
     color: rgb(255, 166, 0);
-    /* transform: scale(2); */
-    /* box-shadow: 0 0 5px #ffee10; */
-    text-shadow: 0 0 5px #ffee10;
 }
 
 
 /* testing code */
-
-
-
 
 .abc {
     display: table-cell;
@@ -428,7 +403,6 @@ i.fa.fa-quote-left {
     z-index: 1000;
     top: 60%;
     left: -80%;
-    /* color: #ffffff; */
     font-weight: 300;
     font-size: 13px;
     width: 80%;
@@ -473,37 +447,24 @@ i.fa.fa-quote-left {
 
 
 .sec-two {
-    /* background: linear-gradient(360deg, #193064, #b81cab); */
-    /* height: 60vh; */
-    background-color: black;
+    background-color: #131313;
     padding: 50px 0;
     
 }
 
 
 .grid-container {
-    /* height: 500px; */
     width: 80vw;
     margin: 0 auto;
     justify-content: center;
-    /* background-color: gray; */
-    /* display: flex ; */
-    /* justify-content: center; */
     display: grid;
-    /* grid-template-rows: 100px 100px 100px ;
-    grid-template-columns: 100px 100px 100px; */
-    /* grid-template-columns: 100px 100px 100px 100px; */
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6 , 100px); 
-    /* grid-template-rows:  175px 175px 175 px 175px 175px 175px; */
 
 }
 
 .box {
-    /* width: 80px;
-    height: 80px; */
     margin: 3px;
-    /* border: 4px solid; */
     text-align: center;
 
 }
@@ -526,8 +487,6 @@ i.fa.fa-quote-left {
     grid-row-end: 7;
 }
 .b2 {
-    /* text-align: center; */
-    /* color: white; */
     font-size: 50px;
     grid-column-start: 2;
     grid-column-end:4;
@@ -574,9 +533,3 @@ i.fa.fa-quote-left {
     height: 100%;
     width: 100%;
 }
-/* 
-.b1 img,
-.b10 img {
-    width: 100%;
-    height: 100%;
-} */
