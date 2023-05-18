@@ -1,17 +1,17 @@
+// <-------------------- Dropdown menu hover -------------->
+
 $("#product").mouseover(function () {
-    $(".dropdown-container").slideDown(1500);
-  });
-  
-  // $(".dropdown-container").mouseover(function () {
-  //   // $(".dropdown-container").slideDown();
-  //   // $(".dropdown-container").
-  // });
-  
-  $(".dropdown-container").mouseleave(function () {
-    $(".dropdown-container").fadeOut(800);
-  });
-  
-  // $("#product").mouseleave(function () {
-  //   $(".dropdown-container").slideUp(10);
-  // });
-  
+    $(".dropdown-container").slideDown(800);
+});
+
+$(".dropdown-container").mouseleave(function () {
+    $(".dropdown-container").slideUp(800);
+});
+
+$("#codeofconduct").mouseover(function () {
+    $(".dropdown-container").slideUp(800);
+});
+
+$("#about").mouseover(function () {
+    $(".dropdown-container").slideUp(800);
+});

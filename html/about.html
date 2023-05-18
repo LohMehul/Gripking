@@ -13,143 +13,322 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-
-
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <title>About</title>
-    <style>
-        
-    </style>
+
 </head>
 
 <body>
-    <section class="wrapper">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="../img/Gripking side logo.png" alt=""></a>
-            </div>
-            <div class="nav-links">
-                <ul class="row jsc">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <li><a href="#">Code of Conduct</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="social-links">
-                <ul>
-                    <li><a href="https://www.facebook.com/gripkingindia/"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/gripkingindia/"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- <div class="section-one" style="background-image: url(../img/01.png);">
-     <div class="nav-links">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a id="product" href="#">Product</a></li>
-            <li><a href="#">Code of Conduct</a></li>
-            <li><a href="#">FAQS</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div> -->
-        <div id="dropdown-container" class="dropdown-container">
-            <div class="drop-down">
-                <div class="horizontal-line">
 
+    <section class="sec-one">
+
+        <!-- *********************** Navbar **************** -->
+
+        <div class="layer">
+            <div class="navbar container">
+                <div class="logo">
+                    <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt=""></a>
                 </div>
-                <div class="dropdown-items">
-                    <div class="product-type-one">
-                        <p><a href="">Masking Tape</a></p>
-                        <p><a href="">Duct Tape</a></p>
-                        <p><a href="">Aluminum Foil Tape</a></p>
-                        <p><a href="">Double Side Tissue Tape</a></p>
-                        <p><a href="">Self Adhesive Bopp Tape</a></p>
-                    </div>
-                    <div class="borderline">
+                <div class="nav-links">
+                    <ul class="row jsc">
+                        <li><a id="home" href="../html/index.html">Home</a></li>
+                        <li id="about"><a href="../html/about.html">About</a></li>
+                        <li id="product"><a class="product" href="product.html">Products</a>
+                        </li>
+                        <li id="FAQS"><a href="../html/FAQS.html">FAQs</a></li>
+                        <li id="contactus"><a href="../html/contact_us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- *********************** Dropdown Menu **************** -->
+
+            <div id="dropdown-container" class="dropdown-container">
+                <div class="drop-down">
+                    <div class="horizontal-line">
 
                     </div>
-                    <div class="product-type-two">
-                        <p><a href="">PE Foam Tape</a></p>
-                        <p><a href="">Floor Marking Tape</a></p>
-                        <p><a href="">Cross Filament Tape</a></p>
-                        <p><a href="">P.T.F.E Thread Seal Tape</a></p>
-                        <p><a href="">Double Side Acrylic Tape</a></p>
-                    </div>
-                    <div class="borderline">
+                    <div class="dropdown-items">
+                        <div class="product-type-one">
+                            <p><a href="">Masking Tape</a></p>
+                            <p><a href="">Duct Tape</a></p>
+                            <p><a href="">Aluminum Foil Tape</a></p>
+                            <p><a href="">Double Side Tissue Tape</a></p>
+                            <p><a href="">Self Adhesive Bopp Tape</a></p>
+                        </div>
+                        <div class="borderline">
 
-                    </div>
-                    <div class="product-type-two">
-                        <p><a href="">Craft Paper Tape</a></p>
-                        <p><a href="">Red Polyester Tape</a></p>
-                        <p><a href="">Single Sided Foam Tape</a></p>
-                        <p><a href="">Double Sided Foam Tape</a></p>
+                        </div>
+                        <div class="product-type-two">
+                            <p><a href="">PE Foam Tape</a></p>
+                            <p><a href="">Floor Marking Tape</a></p>
+                            <p><a href="">Cross Filament Tape</a></p>
+                            <p><a href="">P.T.F.E Thread Seal Tape</a></p>
+                            <p><a href="">Double Side Acrylic Tape</a></p>
+                        </div>
+                        <div class="borderline">
+
+                        </div>
+                        <div class="product-type-three">
+                            <p><a href="">Craft Paper Tape</a></p>
+                            <p><a href="">Red Polyester Tape</a></p>
+                            <p><a href="">Single Sided Foam Tape</a></p>
+                            <p><a href="">Double Sided Foam Tape</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="about">
-            <div class="image">
-                <img src="../img/about_page_logo.png" alt="">
+        <!-- *********************** Home **************** -->
+        <div class="about-banner">
+        </div>
+        <div class="about-path">
+            <h4>About</h4>
+            <p><span><a href="./index.html">Gripking Tapes India Pvt. Ltd.</a></span> <i
+                    class="fa-solid fa-arrow-right-long"></i> About</p>
+        </div>
+
+    </section>
+
+    <!-- *********************** Section One End **************** -->
+
+    <!-- *********************** Section  Two Start **************** -->
+
+    <div class="sec-two">
+        <div class="container row">
+            <div class="col-60 sec-two-img">
+                <img src="../img/Tape Wall.jpg" alt="">
+                <img id="img_two" src="../img/IMG_3514.JPG" alt="">
             </div>
-            <h5>About Us</h5>
-            <p>Incepted in 2011, GRIPKING TAPES INDIA PVT. LTD. is one of the leading self Adhesive tape Manufacturer
-                Company located in Ahmedabad, which is a top business hub of Gujarat. Being the top industrial tap
-                manufacturer, we adopt high technology and skilled personnel to make our company truly & fully domestic.
-            </p>
-            <p>We’ve always aimed at becoming a strategic partner to our customers whose role goes beyond supplying
-                products.
-                We offer the best services and facilities for building long-term business relations based on mutual
-                understanding and benefits.</p>
-            <p> GRIPKING TAPES has a widespread network of seasoned dealers and distributors for both retail and
-                corporate
-                sales. We have a distributor presence in almost all large Indian cities. We work rigorously by a set of
-                values
-                and ethical standards. We also expect our distributors to adhere to the highest standards of ethics.</p>
-            <p>We have clear as crystal rules for everything we do, and every member of the GRIPKING TAPES family
-                adheres
-                to
-                them. Additionally, we endeavour to create a healthy and competitive working environment at all levels.
-                If
-                we
-                have more than one dealer or distributor in metropolises, we ensure there are no disputes between them.
-            </p>
-            <h5>Vision</h5>
-            <p> To be one of the top adhesive tape manufacturers in India & offer excellent quality of products
-                to the customers
-                that suits their needs in the sector of Adhesive Technology of Adhesive Tapes by relentless Innovations.
-            </p>
+            <div class="col-40 sec-two-content">
+                <h4>ABOUT US</h4>
+                <h5>Stick with Us: The Ultimate Adhesive Tape Solutions</h5>
+                <p>Discover the power of adhesion with our premium adhesive tapes. From industrial to everyday use,
+                    we've got you covered with strong and reliable solutions for all your sticking needs. Discover the
+                    difference with our adhesive tape products today.
+                </p>
+                <div class="services">
+                    <div class="service-items">
+                        <!-- item start -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="read-more-cont">
+                                    <h4>About Us</h4>
 
-            <h5>Mission</h5>
-            <p>To be the “manufacturer of choice” for our customers and to deliver the strongest type of tape following
-                our
-                customer requirements.</p>
+                                    <p>Incepted in 2011, GRIPKING TAPES INDIA PVT. LTD. is one of the leading self
+                                        Adhesive tape Manufacturer Company located in Ahmedabad, which is a top business
+                                        hub of Gujarat. Being the top industrial tap manufacturer, we adopt high
+                                        technology and skilled personnel to make our company truly & fully domestic.</p>
+                                    <p>We’ve always aimed at becoming a strategic partner to our customers whose role
+                                        goes beyond supplying products. We offer the best services and facilities for
+                                        building long-term business relations based on mutual understanding and
+                                        benefits.</p>
+                                    <p>GRIPKING TAPES has a widespread network of seasoned dealers and distributors for
+                                        both retail and corporate sales. We have a distributor presence in almost all
+                                        large Indian cities. We work rigorously by a set of values and ethical
+                                        standards. We also expect our distributors to adhere to the highest standards of
+                                        ethics.</p>
+                                    <p>We have clear as crystal rules for everything we do, and every member of the
+                                        GRIPKING TAPES family adheres to them. Additionally, we endeavour to create a
+                                        healthy and competitive working environment at all levels. If we have more than
+                                        one dealer or distributor in metropolises, we ensure there are no disputes
+                                        between them.</p>
 
-            <h5>Infrastructure</h5>
-            <p>Our state-of-the-art infrastructure is backed with technologically advanced tools and machinery that
-                assist
-                in
-                the quality and quantity production of the Packaging Products. The robust infrastructural base has
-                played a
-                vital role in strengthening the market position of the company.</p>
+                                    <h4>Our Vision</h4>
 
-            <h5>Quality Assurance</h5>
-            <p>Owing to the priority to serve quality products, various stringent quality tests are conducted at various
-                levels
-                of production to the final stage of packaging. For fuller assurance of the quality, the tests are made
-                under
-                the
-                supervision of our quality control executives on various quality parameters ensuring zero manufacturing
-                defects.</p>
+                                    <p>To be one of the top adhesive tape manufacturers in India & offer excellent
+                                        quality of products to the customers that suits their needs in the sector of
+                                        Adhesive Technology of Adhesive Tapes by relentless Innovations.</p>
+
+                                    <h4>Our Mission</h4>
+
+                                    <p>To be the “manufacturer of choice” for our customers and to deliver the strongest
+                                        type of tape following our customer requirements.</p>
+
+                                    <h4>Infrastructure</h4>
+
+                                    <p>Our state-of-the-art infrastructure is backed with technologically advanced tools
+                                        and machinery that assist in the quality and quantity production of the
+                                        Packaging Products. The robust infrastructural base has played a vital role in
+                                        strengthening the market position of the company.</p>
+
+                                    <h4>Quality Assurance</h4>
+
+                                    <p>Owing to the priority to serve quality products, various stringent quality tests
+                                        are conducted at various levels of production to the final stage of packaging.
+                                        For fuller assurance of the quality, the tests are made under the supervision of
+                                        our quality control executives on various quality parameters ensuring zero
+                                        manufacturing defects.</p>
+                                </div>
+                                <button class="btn" type="button">Continue Reading &nbsp; <i
+                                        class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                    </div>
+                </div>
+
+                <!-- read more popup box start -->
+                <div class="popup-box">
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h3>Gripking Tapes India Pvt. Ltd.</h3>
+                            <span class="popup-close-icon">&times;</span>
+                        </div>
+                        <div class="popup-body">
+
+                        </div>
+                        <div class="popup-footer">
+                            <button class="btn popup-close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- read more popup box end -->
+            </div>
+        </div>
+        <div class="cards container row">
+            <div class="reasonable_price row col-30">
+                <img src="../img/assurance.png" alt="Reasonable Prices Icon">
+                <div>
+                    <h4>Reasonable Prices</h4>
+                    <p>We produce adhesive tape to fulfill needs of all people and offer it at affordable and fair
+                        prices
+                    </p>
+                </div>
+            </div>
+            <div class="exclusive_quality row col-30">
+                <img src="../img/approve.png" alt="Exclusive Quality Icon">
+                <div>
+                    <h4>Exclusive Quality</h4>
+                    <p>Mixture of experience and professionalism is the secret of our design!</p>
+                </div>
+            </div>
+            <div class="professional_team row col-30">
+                <img src="../img/professional-services.png" alt="Professional Team Icon">
+                <div>
+                    <h4>Professional Team</h4>
+                    <p>We are proud of our amicable, professional and always developing team!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- *********************** Section Two End **************** -->
+
+    <!-- *********************** Section Three Start **************** -->
+
+    <section class="sec-three">
+        <div class="sec_three_content container row">
+            <div class="tag_line col-60">
+                <p>QUALITY OF WORK</p>
+                <h4>Milestones that we proudly accomplished & lead us forward.</h4>
+            </div>
+            <div class="counting_num col-60">
+                <div class="trusted_by row">
+                    <div class="trusted_text">
+                        <p>Trusted</p>
+                        <span>By</span>
+                    </div>
+                    <div class="trusted_count">
+                        <h4><span class="count percent" data-count="500"></span>+</h4>
+                        <p>Corporates</p>
+                    </div>
+                </div>
+                <div class="experience row">
+                    <div class="experience_count">
+                        <h4><span class="count percent" data-count="11"></span>+</h4>
+                        <p>Years</p>
+                    </div>
+                    <div class="experience_text">
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
- <script src="../js/about.js"></script>
+
+    <!-- *********************** Section Three End **************** -->
+
+    <!-- *********************** Section Four Start **************** -->
+
+    <section class="sec-four">
+        <div class="container row">
+            <div class="col-50 content_one">
+                <img id="img_one" src="../img/Packing-Tape.jpg" alt="">
+                <p>BEST SELLING QUALITY</p>
+                <h4>Sticky situations made simple with our superior adhesive tape</h4>
+                <img id="quality_logo" src="../img/About_07.png" alt="">
+            </div>
+            <div class="col-50 content_two">
+                <img src="../img/all-tapes.jpg" alt="">
+                <p>The cost of the tape should be reasonable and commensurate with its quality and performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- *********************** Footer Section Start **************** -->
+
+    <section id="footer" class="footer">
+        <div class="footer-content container jsc row">
+            <div class="footer-logo">
+                <img src="../img/logo-black.png" alt="">
+            </div>
+            <div class="footer-location">
+                <h4>Location</h4>
+                <div class="corporate-address">
+                    <p id="corporate-office">Corporate Office</p>
+                    <div id="vertical-line-one"></div>
+                    <p id="address-one">A-605, Kahan Complex, Opp. Hotel Safari, Above Vijay Sales, Odhav Cross Road,
+                        S.P. Ring
+                        Road, Odhav,
+                        Ahmedabad - 382415.
+                    </p>
+                </div>
+                <div id="factory-address">
+                    <p id="manufacturing-unit">Manufacturing Unit</p>
+                    <div id="vertical-line-two"></div>
+                    <p>Plot No. B/58, Swastik Industrial Park, Nr. Canal, Kuha-kothiya Road, Indore Highway, Kuha,
+                        Ahmedabad - 382433.</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <div class="footer-num">
+                    <p id="footer-num"><a href="tel:9311669311">+91 93116 69311</a>
+                    <p id="footer-num">|</p>
+                    <p id="footer-num"><a href="tel:9311339311">+91 93113 39311</a></p>
+                    </p>
+                </div>
+                <p id="footer-mail"><a href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
+                <p id="web-address"><a href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
+                </p>
+                <p>Mon-Fri: 8am - 6pm</p>
+                <p>Sat-Sun: 8am - 4pm</p>
+                <p>Holidays: closed</p>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="footersocial-content container">
+                <p>&copy; 2020 All rights reserved.<span> Gripkingindia</span></p>
+                <ul>
+                    <li><a target="_blank" href="https://www.facebook.com/gripkingindia/"><i class="fab fa-facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/Gripking_Tape"><i class="fab fa-twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/gripking-tapes/"><i
+                                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/gripkingindia/"><i class="fab fa-instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/app.js"></script>
+    <script src="../js/navbar.js"></script>
+
 </body>
 
 </html>

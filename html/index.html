@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gripking</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -15,403 +19,405 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-    <title>Gripking</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="../css/preloader.css">
     <style>
-        #demo li {
-            display: none;
-            position: absolute;
-            top: 50px;
 
-        }
-
-        #A1 {
-            top: 10px;
-            left: 400px;
-        }
-
-        #A2 {
-            top: 20px;
-        }
-
-        #A3 {
-            top: 30px;
-        }
-
-        #A4 {
-            top: 40px;
-        }
     </style>
 </head>
 
 <body>
-    <div class="layer">
-        <div class="navbar container">
-            <div class="logo">
-                <a href="./index.html"><img src="../img/Gripking side logo.png" alt=""></a>
-            </div>
-            <div class="nav-links">
-                <ul class="row jsc">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <li><a href="#">Code of Conduct</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="social-links">
-                <ul>
-                    <li><a href="https://www.facebook.com/gripkingindia/"><i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/gripkingindia/"><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- <div class="section-one" style="background-image: url(../img/01.png);">
- <div class="nav-links">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a id="product" href="#">Product</a></li>
-        <li><a href="#">Code of Conduct</a></li>
-        <li><a href="#">FAQS</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</div> -->
-        <div id="dropdown-container" class="dropdown-container">
-            <div class="drop-down">
-                <div class="horizontal-line">
 
-                </div>
-                <div class="dropdown-items">
-                    <div class="product-type-one">
-                        <p><a href="">Masking Tape</a></p>
-                        <p><a href="">Duct Tape</a></p>
-                        <p><a href="">Aluminum Foil Tape</a></p>
-                        <p><a href="">Double Side Tissue Tape</a></p>
-                        <p><a href="">Self Adhesive Bopp Tape</a></p>
-                    </div>
-                    <div class="borderline">
+    <!-- *********************** Pre-loader Start **************** -->
 
-                    </div>
-                    <div class="product-type-two">
-                        <p><a href="">PE Foam Tape</a></p>
-                        <p><a href="">Floor Marking Tape</a></p>
-                        <p><a href="">Cross Filament Tape</a></p>
-                        <p><a href="">P.T.F.E Thread Seal Tape</a></p>
-                        <p><a href="">Double Side Acrylic Tape</a></p>
-                    </div>
-                    <div class="borderline">
-
-                    </div>
-                    <div class="product-type-two">
-                        <p><a href="">Craft Paper Tape</a></p>
-                        <p><a href="">Red Polyester Tape</a></p>
-                        <p><a href="">Single Sided Foam Tape</a></p>
-                        <p><a href="">Double Sided Foam Tape</a></p>
-                    </div>
-                </div>
-            </div>
+    <div class="wrapper">
+        <div class="container-2" id="loader">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="loading">Gripking</div>
         </div>
     </div>
-    <!-- *********************** section one **************** -->
+
+    <!-- *********************** Pre-loader End **************** -->
+
+    <!-- *********************** Section One **************** -->
+
+
     <section class="sec-one">
 
-        <!-- background video -->
+        <!-- *********************** Navbar **************** -->
+
+        <div class="layer">
+            <div class="navbar container">
+                <div class="logo">
+                    <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt=""></a>
+                </div>
+                <div class="nav-links">
+                    <ul class="row jsc">
+                        <li><a id="home" href="../html/index.html">Home</a></li>
+                        <li id="about"><a href="../html/about.html">About</a></li>
+                        <li id="product"><a class="product" href="product.html">Products</a>
+                        </li>
+                        <!-- <li id="codeofconduct"><a href="code_of_conduct.html">Code of Conduct</a></li> -->
+                        <li id="FAQS"><a href="../html/FAQS.html">FAQs</a></li>
+                        <li id="contactus"><a href="./contact_us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- *********************** Dropdown Menu **************** -->
+
+            <div id="dropdown-container" class="dropdown-container">
+                <div class="drop-down">
+                    <div class="horizontal-line">
+
+                    </div>
+                    <div class="dropdown-items">
+                        <div class="product-type-one">
+                            <p><a href="">Masking Tape</a></p>
+                            <p><a href="">Duct Tape</a></p>
+                            <p><a href="">Aluminum Foil Tape</a></p>
+                            <p><a href="">Double Side Tissue Tape</a></p>
+                            <p><a href="">Self Adhesive Bopp Tape</a></p>
+                        </div>
+                        <div class="borderline">
+
+                        </div>
+                        <div class="product-type-two">
+                            <p><a href="">PE Foam Tape</a></p>
+                            <p><a href="">Floor Marking Tape</a></p>
+                            <p><a href="">Cross Filament Tape</a></p>
+                            <p><a href="">P.T.F.E Thread Seal Tape</a></p>
+                            <p><a href="">Double Side Acrylic Tape</a></p>
+                        </div>
+                        <div class="borderline">
+
+                        </div>
+                        <div class="product-type-three">
+                            <p><a href="">Craft Paper Tape</a></p>
+                            <p><a href="">Red Polyester Tape</a></p>
+                            <p><a href="">Single Sided Foam Tape</a></p>
+                            <p><a href="">Double Sided Foam Tape</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- *********************** Home **************** -->
 
         <div class="video">
-
             <video loop muted autoplay width="100%" height="10%"
                 src="../img/pexels-rostislav-uzunov-10613973.mp4"></video>
         </div>
-
         <div class="main-logo row">
-            <img src="../img/01.png" alt="">
             <div class="text">
                 <h4>Welcome</h4>
                 <p> To a World Of</p>
                 <h4><span>Adhesive</span> Tapes</h4>
             </div>
         </div>
-
-        <!-- navbar -->
-
-        <!-- home section logo and text -->
-
-
+        <!-- <button class="down-arrow" type="button">
+            <a href="#section-two"><i class="fa-solid fa-angles-down"></i></a>
+        </button> -->
+        <button class="down-wheel">
+            <a href="#section-two">
+                <span class="mouse">
+                    <span class="mouse-wheel"></span>
+                </span>
+            </a>
+        </button>
     </section>
 
-    <!-- *********************** section two **************** -->
-    <section class="sec-two">
+    <!-- *********************** Section Two **************** -->
 
-        <div class="grid-container">
-            <div class="box b1">
-                <img src="../img/IMG_3514.JPG" alt="">
-            </div>
-            <div class="box b2">
-                <img src="../img/IMG_3517.JPG" alt="">
-            </div>
-            <div class="box b3">
-                <img src="../img/IMG_3518.JPG" alt="">
-            </div>
-            <div class="box b4">
-                <img src="../img/JT8A8425.JPG" alt="">
-            </div>
-            <div class="box b5">
-                <img src="../img/JT8A8431.JPG" alt="">
-            </div>
-            <div class="box b6">
-                <img src="../img/JT8A8474.JPG" alt="">
-            </div>
-            <div class="box b7">
-                <img src="../img/JT8A8498.JPG" alt="">
-            </div>
-            <div class="box b8">
-                <img src="../img/JT8A8501.JPG" alt="">
-            </div>
-            <div class="box b9">
-                <img src="../img/JT8A8503.JPG" alt="">
-            </div>
-            <div class="box b10">
-                <img src="../img/JT8A8431.JPG" alt="">
+    <section class="sec-two" id="section-two">
+        <div class="about-content container">
+            <p id="about-heading">ABOUT US</p>
+            <h4>Packing Tapes Roll Manufacturer</h4>
+            <p id="about-content-one">Gripking is one of the leading packing products & Adhesive Tape Manufacturers in
+                India. We are dedicated
+                to offering premium-quality products at economical prices using modern technologies to practice most
+                efficiently. Our product range involves Double Sided Tape, Masking Tape, Electrical Insulation Tape, Box
+                Packing Tape, Aluminum Tape, and Self-Adhesive in India. Our erudite and skilled professionals do
+                thorough research in the market to produce these tapes under the set industry standards. Being the top
+                Packaging Tape Tolls Exporter, We manufacture these products keeping in mind the requirements of our
+                clients.
+            </p>
+            <p id="about-content-two">We have a team of highly-trained inspectors to persistently check the quality of
+                our entire offered
+                range. Our products are subjected to strict checking in our testing unit to ensure that our customers
+                collect only immaculate gamut. Our customer’s contentment matters to us, and so we deliver ordered
+                consignments in time. Due to our candid business practices, see-through dealings, and customer-centric
+                approach, We have been able to acquire big clients across the country.
+            </p>
+            <div>
+                <a href="./about.html" class="button">Know more</a>
             </div>
         </div>
     </section>
 
-    <!-- ******************** section three ************** -->
+    <!-- *********************** Section Three **************** -->
 
     <section class="sec-three">
-        <div class="container">
-            <div class="title">
-                <h4>Applications</h4>
+        <div class="product-content container">
+            <div class="home-product-details">
+                <div class="slider">
+                    <div class="slide s1">
+                        <p>CREATE</p>
+                        <h4>Masking Tape</h4>
+                        <p id="product-detail-two">A high-grade &amp; water-resistant crepe paper Masking Tape offers
+                            pressure-sensitive quality. It is generally used for drawing on the wall, painting on paper,
+                            and
+                            other professional and personal purposes.
+                        </p>
+                    </div>
+                    <div class="slide s2">
+                        <p>CREATE</p>
+                        <h4>Double Sided Tissue Tape</h4>
+                        <p id="product-detail-two">Made with tissue paper as base material and coating on both side with
+                            pressure sensitive adhesive, then make it in rolls with releasing paper. Excellent
+                            performance of temperature. Special formulated adhesive provides strong holding power.
+                        </p>
+                    </div>
+                    <div class="slide s3">
+                        <p>CREATE</p>
+                        <h4>Duct Tape</h4>
+                        <p id="product-detail-two">Duct tape with a natural rubber adhesive and water resistant
+                            polyethylene backing. It provides easy tear and good conform ability. The adhesive has
+                            excellent tack and is a great choice for sticking to Metal, Glass, Plastic, Sealed concrete
+                            and more.
+                        </p>
+                    </div>
+                    <div class="slide s4">
+                        <p>CREATE</p>
+                        <h4>Double Sided Foam Tape</h4>
+                        <p id="product-detail-two">Use for sealing, bonding, cushioning, protection from dust and
+                            mounting purpose. Protects from water, moisture and dust coated with variety of adhesives.
+                            Easy and quick to apply on different clean surfaces.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/box.png" alt="">
-                        <p>Packaging</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/protection.png" alt="">
-                        <p>Protection</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/lift.png" alt="">
-                        <p>Building & Construction</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/cogwheel.png" alt="">
-                        <p>industrial</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/shield.png" alt="">
-                        <p>Security</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/tape-dispenser.png" alt="">
-                        <p>Stationary</p>
-                    </div>
-                </div>
-                <div class="col-25">
-                    <div class="image">
-                        <img src="../img/bullhorn.png" alt="">
-                        <p>Marketing / Branding</p>
-                    </div>
-                </div>
+            <div class="home-product-img">
+                <img class="slide-image" src="../img/Masking Tape profile.png" alt="">
+                <img class="slide-image" src="../img/Double sided tissue tape.png" alt="">
+                <img class="slide-image" src="../img/Duct Tape.png" alt="">
+                <img class="slide-image" src="../img/Double sided foam tape.png" alt="">
+            </div>
+            <div class="slide-btn">
+                <button class="btn-left" id="up-btn" onclick="plusIndex(-1)"><a><i
+                            class="fa-solid fa-chevron-up"></i></a></button>
+                <button class="btn-right" id="down-btn" onclick="plusIndex(+1)"><a><i
+                            class="fa-solid fa-chevron-down"></i></a></button>
             </div>
         </div>
     </section>
 
 
-
-
-
-    <!-- ******************** section Why US ***************** -->
-    <section class="why-us">
-        <div class="container">
-            <div class="title">
-                <h4>Why Us ?</h4>
-            </div>
-            <div class="cards row">
-                <div class="col-25">
-                    <p><span>12+</span> Years Experience</p>
-                </div>
-                <div class="col-25">
-                    <p><span>On Time</span> Delivery</p>
-                </div>
-                <div class="col-25">
-                    <p><span>Quality</span> Assured</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- ******************** section Four ************** -->
+    <!----------- section four---------- -->
 
     <section class="sec-four">
         <div class="title">
-            <h4>Our clients Say !!!!</h4>
+            <h4>Our Clients Says !!!</h4>
         </div>
+        <div id="testimonial-slider" class="owl-carousel">
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                <div class="cell-right">
+                    <div class="testimonial-name">Kimaya Pawar
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Very high quality tapes for various applications.
+                    Great variety of products is available.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Ruturaj Maggirwar
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Great products with adequate adhesive strength. I was great to work with the products
+                    received.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Mahesh Ghodake
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Gripking Tapes have Good Quality Products.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Super Tapes
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Deals in Made in India masking tape proudly..... Uncompromising Quality ....<i
+                        class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Akshay Patel
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Good Quality & All types of Tape solutions.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Jaiee Bhange
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Great quality products and services.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="testimonial-item equal-height style-6" style="height: 254px;">
+
+                <div class="cell-right">
+                    <div class="testimonial-name">Saket Tommundrum - Team Solarium
+                    </div>
+                </div>
+                <div class="testimonial-content quote"><i class="fa fa-quote-left">
+                    </i>Loved their products.<i class="fa fa-quote-left"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- *********************** Section Five **************** -->
+
+    <!-- <section class="sec-five">
         <div class="container">
-            <div class="">
-                <div class="">
-                    <div id="testimonial-slider" class="owl-carousel">
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-                            <div class="cell-right">
-                                <div class="testimonial-name">1Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">2Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">3Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">4Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">5Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">6Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-item equal-height style-6" style="height: 254px;">
-
-                            <div class="cell-right">
-                                <div class="testimonial-name">7 Rose
-                                </div>
-                                <div class="testimonial-job">Gardener
-                                </div>
-                            </div>
-                            <div class="testimonial-content quote"><i class="fa fa-quote-left">
-                                </i>This is a short bio about rose. This is a short bio about rose. This is a short bio
-                                about rose. This is a short bio about rose. This is a short bio about rose.<i
-                                    class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-
+            <div class="row">
+                <div class="col-70 tag-line">
+                    <p><span>Let's bond together </span>for a brighter collective future!</p>
+                </div>
+                <div class="col-30">
+                    <div class="btn">
+                        <div class="button"><a href="./contact_us.html">Contact Us</a></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="info">
-        <div class="container row wrap">
-            <div class="img_logo col-40">
-                <img src="../img/logo.png" alt="">
-            </div>
-            <div class="col-30">
-                <h5>CORPORATE OFFICE</h5>
-                <p>
-                    A-605, Kahan Complex, Opp. Hotel Safari, Above Vijay Sales, Odhav Cross Road, S.P. Ring Road, Odhav,
-                    Ahmedabad - 382415.</p>
-                <div class="contact-us">
-                    <ul class="row">
-                        <li><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a title="Facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a title="Twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a title="Whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-30">
-                <h5>CORPORATE OFFICE</h5>
-                <p>
-                    A-605, Kahan Complex, Opp. Hotel Safari, Above Vijay Sales, Odhav Cross Road, S.P. Ring Road, Odhav,
-                    Ahmedabad - 382415.</p>
-                <div class="contact-us">
-                    <ul class="row">
-                        <li><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a title="Facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a title="Twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a title="Whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    </ul>
-                </div>
+            <div class="trust">
+                <h6>Trusted by <span class="count percent" data-count="500">0</span>+ Corporate Companies </h6>
             </div>
         </div>
-    </section>
+    </section> -->
 
+    <!-- <section class="sec-five">
+        <div class="col-50 india-map">
+            <img src="../img/india-map.png" usemap="#image-map">
+            <map name="image-map">
+                <area class="box border" target="" alt="" title="" href=""
+                    coords="918,719,908,729,894,721,879,724,865,712,850,702,836,700,821,690,831,678,821,663,802,659,797,642,782,642,775,654,763,661,758,644,746,632,751,615,763,603,749,596,749,576,749,557,749,538,761,528,775,523,787,516,802,518,816,518,831,518,843,506,857,509,862,521,865,533,877,538,891,540,903,540,915,545,925,552,932,564,937,574,949,581,959,584,971,591,986,598,986,608,978,627,959,639,947,649,942,663,937,678,935,690,927,705"
+                    shape="poly">
+            </map>
+
+        </div>
+        </div>
+
+        <div class="vertical-border"></div>
+
+        <div class="col-50 grid">
+            <button style="padding: 15px; background-color:brown; cursor:pointer;" onmouseover="sethovereffect()">State
+
+            </button>
+    </section> -->
+    <!-- *********************** Footer Section **************** -->
+
+    <section id="footer" class="footer">
+        <div class="footer-content container jsc row">
+            <div class="footer-logo">
+                <img src="../img/logo-black.png" alt="">
+            </div>
+            <div class="footer-location">
+                <h4>Location</h4>
+                <div class="corporate-address">
+                    <p id="corporate-office">Corporate Office</p>
+                    <div id="vertical-line-one"></div>
+                    <p id="address-one">A-605, Kahan Complex, Opp. Hotel Safari, Above Vijay Sales, Odhav Cross Road,
+                        S.P. Ring
+                        Road, Odhav,
+                        Ahmedabad - 382415.
+                    </p>
+                </div>
+                <div id="factory-address">
+                    <p id="manufacturing-unit">Manufacturing Unit</p>
+                    <div id="vertical-line-two"></div>
+                    <p>Plot No. B/58, Swastik Industrial Park, Nr. Canal, Kuha-kothiya Road, Indore Highway, Kuha,
+                        Ahmedabad - 382433.</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <div class="footer-num">
+                    <p id="footer-num"><a href="tel:9311669311">+91 93116 69311</a>
+                    <p id="footer-num">|</p>
+                    <p id="footer-num"><a href="tel:9311339311">+91 93113 39311</a></p>
+                    </p>
+                </div>
+                <p id="footer-mail"><a href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
+                <p id="web-address"><a href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
+                </p>
+                <p>Mon-Fri: 8am - 6pm</p>
+                <p>Sat-Sun: 8am - 4pm</p>
+                <p>Holidays: closed</p>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="footersocial-content container">
+                <p>&copy; 2020 All rights reserved.<span> Gripkingindia</span></p>
+                <ul>
+                    <li><a target="_blank" href="https://www.facebook.com/gripkingindia/"><i class="fab fa-facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/Gripking_Tape"><i class="fab fa-twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/gripking-tapes/"><i
+                                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/gripkingindia/"><i class="fab fa-instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <script src="../js/app.js"></script>
+    <script src="../js/slider.js"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 200,
+        });
+
+        ScrollReveal().reveal('.main-logo .text', { delay: 30 });
+        ScrollReveal().reveal('.about-content #about-heading, .about-content h4', { delay: 30, origin: 'left' });
+        ScrollReveal().reveal('#about-content-one, #about-content-two, .about-content', { delay: 30, origin: 'bottom' });
+        ScrollReveal().reveal('.slider', { delay: 30, origin: 'bottom' });
+        // ScrollReveal().reveal('.home-product-img img', { delay: 30, origin: 'right' });
+        ScrollReveal().reveal('.sec-four .title', { delay: 30, origin: 'top' });
+        ScrollReveal().reveal('.sec-five .tag-line', { delay: 30, origin: 'left' });
+        ScrollReveal().reveal('.sec-five .btn', { delay: 30, origin: 'right' });
+        ScrollReveal().reveal('.sec-five .trust', { delay: 30, origin: 'bottom' });
+        ScrollReveal().reveal('.footer-logo img', { delay: 30, origin: 'left' });
+        ScrollReveal().reveal('.footer-location h4, .footer-contact h4', { delay: 30, origin: 'top' });
+        ScrollReveal().reveal('.footer-location .corporate-address, .footer-location #factory-address, .footer-contact p', { delay: 30, origin: 'bottom' });
+        ScrollReveal().reveal('.footersocial-content li', { delay: 30, origin: 'left', interval: 200 });
+    </script>
 </body>
 
 </html>
