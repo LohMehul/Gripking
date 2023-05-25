@@ -1,0 +1,999 @@
+@media (992px <=width <=1200px) {
+    .navbar {
+        justify-content: start;
+        width: 90vw;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .nav-links ul {
+        display: block;
+    }
+
+    .nav-links ul li {
+        margin: 0;
+        padding: 0 5px;
+    }
+
+}
+
+@media (768px <= width <992px) {
+    .navbar {
+        justify-content: start;
+        width: 90vw;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .nav-links ul {
+        display: block;
+    }
+
+    .nav-links ul li {
+        margin: 0;
+        padding: 0 5px;
+    }
+}
+
+
+@media (600px <= width <768px) {
+    .container {
+        width: 550px;
+    }
+
+    .navbar {
+
+        padding: 0 20px 0 20px;
+        width: 600px;
+    }
+
+    .logo img {
+        height: 30px;
+        width: 200px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: -120%;
+        transition: .5s;
+    }
+
+    a:hover,
+    a.home {
+        color: #FED51B;
+
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+
+    }
+}
+
+@media (400px <= width <600px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar {
+
+        padding: 0 20px 0 20px;
+        width: 100%;
+    }
+
+    .logo img {
+        height: 20px;
+        width: 180px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: -120%;
+        transition: .5s;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+
+    }
+
+    .contact-banner {
+        width: 100%;
+    }
+}
+
+@media (width <=400px) {
+    .container {
+        width: 500px;
+    }
+
+    .navbar {
+
+        padding: 0 20px 0 20px;
+        width: 400px;
+    }
+
+    .logo img {
+        height: 25px;
+        width: 150px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: -120%;
+        transition: .5s;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+
+    }
+}
+
+/* .navbar............... */
+/* secone s.............  */
+
+@media (992px <=width <=1200px) {
+    .contact-path {
+        top: 45%;
+        right: 30%;
+    }
+}
+
+@media (768px <=width <=992px) {
+    .contact-path {
+        top: 40%;
+        right: 25%;
+    }
+}
+
+@media (600px <=width <=768px) {
+    .contact-path {
+        top: 38%;
+        right: 20%;
+    }
+
+    .contact-path h4 {
+        font-size: 40px;
+        font-weight: 550;
+    }
+
+    .contact-path p {
+        font-size: 20px;
+    }
+}
+
+@media (400px <= width <600px) {
+    .sec-one{
+        width: 100%;
+    }
+    .contact-path {
+        top: 38%;
+        right: 20%;
+    }
+
+    .contact-path h4 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .contact-path p {
+        font-size: 16px;
+    }
+}
+
+@media (width<=400px) {
+    .contact-path {
+        top: 38%;
+        right: 10%;
+    }
+
+    .contact-path h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .contact-path p {
+        font-size: 13px;
+    }
+}
+
+/* secone e.............. */
+/* sectwo s.............. */
+
+@media (992px <=width <=1200px) {
+    .sec-two {
+        margin: 100px 0;
+    }
+
+    .contact-map {
+        height: 630px;
+        display: flex;
+    }
+
+    .contact-map .col-45 {
+        height: 100vh;
+    }
+
+    .conact-details {
+        margin-left: 70px;
+        width: 85%;
+    }
+
+    #our_contact {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    #get-touch {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+
+    #get-touch-des {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .address-one i {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .address-one span {
+        font-size: 16px;
+    }
+
+    .address-one p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .address-two i {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .address-two span {
+        font-size: 16px;
+    }
+
+    .address-two p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .contact-num i {
+        padding-right: 10px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .contact-num span {
+        font-size: 16px;
+    }
+
+    .contact-num p {
+        font-size: 12px;
+    }
+
+    #number {
+        margin: 10px 0 10px 40px;
+    }
+
+    .email-details span {
+        font-size: 16px;
+    }
+
+    .email-details p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    iframe {
+        height: 630px;
+    }
+}
+
+@media (768px <=width <=992px) {
+    .contact-map {
+        height: 530px;
+        display: flex;
+    }
+
+    .contact-map .col-45 {
+        height: 100vh;
+    }
+
+    .conact-details {
+        margin-left: 60px;
+        width: 80%;
+    }
+
+    #our_contact {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+
+    #get-touch {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    #get-touch-des {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .address-one i {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .address-one span {
+        font-size: 12px;
+    }
+
+    .address-one p {
+        margin: 10px 0 10px 40px;
+        font-size: 10px;
+    }
+
+    .address-two i {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .address-two span {
+        font-size: 12px;
+    }
+
+    .address-two p {
+        margin: 10px 0 10px 40px;
+        font-size: 10px;
+    }
+
+    .contact-num i {
+        padding-right: 10px;
+        font-size: 12px;
+        /* margin-top: 20px; */
+    }
+
+    .contact-num span {
+        font-size: 12px;
+    }
+
+    .contact-num p {
+        font-size: 10px;
+    }
+
+    #number {
+        margin: 10px 0 10px 40px;
+    }
+
+    .email-details span {
+        font-size: 12px;
+    }
+
+    .email-details p {
+        margin: 10px 0 10px 40px;
+        font-size: 10px;
+    }
+
+    iframe {
+        height: 530px;
+    }
+}
+
+@media (600px <=width <=768px) {
+    .sec-two{
+        margin: 80px 0px;
+    }
+    .contact-map {
+        height: 100vh;
+        display: block;
+    }
+
+    .contact-map .col-45 {
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conact-details {
+        margin: 0px 60px;
+        width: 80%;
+    }
+
+    #our_contact {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    #get-touch {
+        font-size: 33px;
+        letter-spacing: -2px;
+    }
+
+    #get-touch-des {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .address-one i {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .address-one span {
+        font-size: 15px;
+    }
+
+    .address-one p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .address-two i {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .address-two span {
+        font-size: 15px;
+    }
+
+    .address-two p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .contact-num i {
+        padding-right: 10px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+    }
+
+    .contact-num span {
+        font-size: 15px;
+    }
+
+    .contact-num p {
+        font-size: 12px;
+    }
+
+    #number {
+        margin: 10px 0 10px 40px;
+    }
+
+    .email-details span {
+        font-size: 15px;
+    }
+
+    .email-details p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .col-55 {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90%;
+        margin: 50px 20px;
+        height: 500px;
+    }
+}
+
+@media (400px <=width <=600px) {
+    .sec-two{
+        margin: 60px 0px;
+    }
+    .contact-map {
+        height: 100vh;
+        display: block;
+    }
+
+    .contact-map .col-45 {
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conact-details {
+        margin: 0% 5%;
+        width: 90%;
+    }
+
+    #our_contact {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    #get-touch {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+
+    #get-touch-des {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .address-one i {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .address-one span {
+        font-size: 14px;
+    }
+
+    .address-one p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .address-two i {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .address-two span {
+        font-size: 14px;
+    }
+
+    .address-two p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .contact-num i {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .contact-num span {
+        font-size: 14px;
+    }
+
+    .contact-num p {
+        font-size: 12px;
+    }
+
+    #number {
+        margin: 10px 0 10px 40px;
+    }
+
+    .email-details span {
+        font-size: 14px;
+    }
+
+    .email-details p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    } 
+
+    .col-55 {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90%;
+        margin: 50px 30px;
+        height: 450px;
+    }
+}
+
+@media (width <=400px) {
+    .sec-two{
+        margin: 60px 0px;
+    }
+    .contact-map {
+        height: 500px;
+        display: block;
+    }
+
+    .contact-map .col-45 {
+        height: 90vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conact-details {
+        margin: 0% 4%;
+        width: 90%;
+    }
+
+    #our_contact {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    #get-touch {
+        font-size: 31px;
+        letter-spacing: -2px;
+    }
+
+    #get-touch-des {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .address-one i {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .address-one span {
+        font-size: 14px;
+    }
+
+    .address-one p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .address-two i {
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .address-two span {
+        font-size: 13px;
+    }
+
+    .address-two p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .contact-num i {
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .contact-num span {
+        font-size: 13px;
+    }
+
+    .contact-num p {
+        font-size: 12px;
+    }
+
+    #number {
+        margin: 10px 0 10px 40px;
+    }
+
+    .email-details span {
+        font-size: 13px;
+    }
+
+    .email-details p {
+        margin: 10px 0 10px 40px;
+        font-size: 12px;
+    }
+
+    .col-55 {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90%;
+        margin: 40px 30px;
+        height: 350px;
+    }
+}
+
+/* sectwo e.............. */
+/* secthree s............ */
+@media (992px <= width <=1200px) {
+    .contact-form {
+        width: 100%;
+        height: 72vh;
+        display: flex;
+    }
+    
+    .col-45 img{
+        width: 100%;
+        height: 650px;
+    }
+    .form-details h3 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -.3px;
+    }
+    
+    .form-details p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .form-content {
+        width: 60%;
+        margin: 40px 0 0 80px;
+    }
+    .name-mail input {
+        width: 48%;
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+    
+    .phone input,
+    .form-message textarea {
+        margin: 15px 0;
+        width: 100%;
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+    .form-submit button {
+        font-size: .75rem;
+    }
+    
+    .form-submit input {
+        font-size: .8rem;
+        letter-spacing: 2px;
+        padding-right: 6px;
+    }
+    
+    .form-submit i {
+        font-size: 0.9rem;
+    }
+}
+
+@media (768px <= width <=992px) {
+    .contact-form {
+        width: 100%;
+        height: 69vh;
+        display: flex;
+    }
+    .form-details {
+        margin: 45px 0 0 80px;
+    }
+    
+    .col-45 img{
+        width: 100%;
+        height: 90vh;
+    }
+    .form-details h3 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -.3px;
+    }
+    
+    .form-details p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .form-content {
+        width: 60%;
+        margin: 10px 0 0 80px;
+    }
+    .name-mail {
+        margin: 10px 0;
+    }
+    .name-mail input {
+        width: 48%;
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+    
+    .phone input,
+    .form-message textarea {
+        margin: 10px 0;
+        width: 100%;
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+    .form-submit button {
+        font-size: .75rem;
+    }
+    
+    .form-submit input {
+        font-size: .8rem;
+        letter-spacing: 2px;
+        padding-right: 6px;
+    }
+    
+    .form-submit i {
+        font-size: 0.9rem;
+    }
+    .form-message{
+        display: none;
+    }
+    .sml-form-mssage{
+        display: block;
+    }
+}
+
+@media (600px <= width <=768px) {
+    .contact-form {
+        width: 100%;
+        height: 40vh;
+        display: block;
+    }
+    .contact-form .col-55{
+        width: 90%;
+    }
+
+    .contact-form .col-45 {
+        width: 90%;
+        height: 60vh;
+        margin: 5px 30px;
+    }
+
+    .col-45 img {
+        display: none;
+    }
+
+    .form-details h3 {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: -.4px;
+        text-align: center;
+    }
+
+    .form-details p {
+        font-size: 15px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .form-content {
+        width: 60%;
+        margin: 8% 0 0 25%;
+    }
+}
+
+@media (400px <= width <=600px) {
+    .contact-form {
+        width: 100%;
+        height: 40vh;
+        display: block;
+    }
+    .contact-form .col-55{
+        width: 90%;
+    }
+    .contact-form .col-45 {
+        width: 90%;
+        height: 60vh;
+        margin: 5px 30px;
+    }
+
+    .col-45 img {
+        display: none;
+    }
+
+    .form-details h3 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -.3px;
+        text-align: center;
+    }
+
+    .form-details p {
+        font-size: 15px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .form-content {
+        width: 60%;
+        margin: 8% 0 0 25%;
+    }
+    .name-mail{
+        display: block;
+    }
+    .name-mail input {
+        width: 100%;
+        /* margin: 15px 0 0 0 ; */
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+
+    #email{
+        margin: 15px 0 0 0;
+    }
+    #name{
+        margin: 15px 0;
+
+    }
+
+    .phone input,
+    .form-message textarea {
+        margin: 15px 0;
+        width: 100%;
+        font-size: .875rem;
+        padding: 15px 22px;
+    }
+
+    .form-submit button {
+        font-size: .75rem;
+        padding: 1.283em 3.4em;
+    }
+
+    .form-submit input {
+        font-size: .8rem;
+        letter-spacing: 2px;
+    }
+
+    .form-submit i {
+        font-size: 0.9rem;
+    }
+
+}
+@media(width <= 400px){
+    .container{
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        height: 40vh;
+        display: block;
+    }
+
+    .contact-form .col-45 {
+        width: 90%;
+        height: 60vh;
+        margin: 5px 30px;
+    }
+
+    .col-45 img {
+        display: none;
+    }
+    .form-details h3 {
+        font-size: 24px;
+    }
+    .form-details p {
+        font-size: 15px;
+    }
+    .name-mail{
+        display: block;
+    }
+    .name-mail input {
+        width: 100%;
+    }
+    #email{
+        margin: 15px 0 0 0;
+    }
+    #name{
+        margin: 15px 0;
+    }
+}
+
+/* secthree eh............ */
