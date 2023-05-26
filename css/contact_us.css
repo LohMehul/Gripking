@@ -549,6 +549,9 @@ a {
     border: none;
     transition: color 0.7s;
 }
+.sml-form-message{
+    display: none;
+}
 
 .form-submit i {
     font-size: 0.9rem;
